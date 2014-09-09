@@ -48,7 +48,7 @@ jekyllMatter(input, options); // => output
 ```
 
 - `date`  : {Date} - Date object
-
+- `author`: {String} - author name
 
 ## Contributing
 
