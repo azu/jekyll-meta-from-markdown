@@ -4,7 +4,7 @@ Create Jekyll Front Matter from single markdown contents.
 
 ## Installation
 
-    jekyll-meta-from-markdown
+    npm install jekyll-meta-from-markdown
 
 ## Usage
 
