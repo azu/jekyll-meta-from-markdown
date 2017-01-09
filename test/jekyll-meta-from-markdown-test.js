@@ -24,4 +24,15 @@ describe("jekyll-meta-from-markdown-test", function () {
             });
         });
     });
+    describe("when options has tags", function () {
+        var input = fs.readFileSync(__dirname + "/fixtures/input_tags.markdown", "utf-8");
+        var output = fs.readFileSync(__dirname + "/fixtures/output_tags.markdown", "utf-8");
+        it("should return text contain jekyll front matter", function () {
+            assert.equal(jekyllMatter(input, {
+                author: "azu",
+                date: new Date("2014-09-08T21:38"),
+                tags: ["sample", "test"]
+            }), output);
+        });
+    });
 });
