@@ -49,6 +49,7 @@ jekyllMatter(input, options); // => output
 
 - `date`  : {Date} - Date object
 - `author`: {String} - author name
+- `tags`: {Array} - strings of tag names for the article
 
 ## Contributing
 
